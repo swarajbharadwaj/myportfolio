@@ -5,7 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "deploy": "vite build && gh-pages -d dist",
+=======
+    
+   "deploy": "vite build && gh-pages -d dist"
+>>>>>>> 5593d624de51c2e80fe834be233f5e59823e749f
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
